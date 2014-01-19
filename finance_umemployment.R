@@ -1,5 +1,6 @@
 library(reshape2)
 library(XML)
+library(string)
 
 unemployment <- function(filename, current_year){
   doc <- htmlParse(filename)
@@ -32,3 +33,8 @@ setwd("C:/Users/t/Dropbox/pdf/Finance")
 current_year <- "2013"
 data <- getData(current_year)
 write.csv(data, file="unemployment2013.csv")  # the file name must include csv extension
+
+
+current_year <- "2012"
+data <- getData(current_year)
+write.csv(data, file="unemployment2012.csv") 
