@@ -11,6 +11,9 @@ Advangtage: produce unemployment data in specific year automatically
 
 unemployment2012 and unemployment2013 in Github are example csv outputs.
 
+Data source: http://www.nycedc.com/resources/economic-research-analysis/economic-snapshots
+
+Other tables in the pdf files can be extracted in similar way.
 
 Before running the programs, you need to 
 
@@ -24,4 +27,4 @@ Before running the programs, you need to
 8. Set root folder as working directory in RStudio. Menu: Session -> Set Working Directory -> To Source File Location
 9. Install three packages: reshape2, XML, stringr. Menu: Tools -> Install Packages
 10. Run the program. The program gives code to run data in 2013 and 2012. You can correct the last 6 lines to meet your requirement.
-11. Outputs are data frame in R and csv file(s) in root folder.
+11. Outputs are data frame in R and csv file(s) in root folder. Sample csv is unemployment2012.csv and unemployment2013.csv in Github. The format of data is long form.
