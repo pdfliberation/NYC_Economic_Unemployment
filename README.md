@@ -13,7 +13,7 @@ unemployment2012 and unemployment2013 in Github are example csv outputs.
 
 Data source: http://www.nycedc.com/resources/economic-research-analysis/economic-snapshots
 
-Other tables in the pdf files can be extracted in similar way.
+Other tables in the pdf files can be extracted by changing getData function.
 
 Before running the programs, you need to 
 
