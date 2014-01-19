@@ -1,7 +1,5 @@
 library(reshape2)
 library(XML)
-# set working directory. Folders are named as current_year
-setwd("C:/Users/bynbutterfly/Dropbox/pdf/Finance")
 
 unemployment <- function(filename, current_year){
   doc <- htmlParse(filename)
@@ -28,10 +26,9 @@ getData <- function(current_year){
   return(data)
 }
 
+# set working directory before running all the codes. Subfolders  are named as current_year
+setwd("C:/Users/t/Dropbox/pdf/Finance")
 # current year is the year when the data was collected, not the year when the reports were published.
 current_year <- "2013"
-data <- getData(2013)
+data <- getData(current_year)
 write.csv(data, file="unemployment2013.csv")  # the file name must include csv extension
-
-
-
