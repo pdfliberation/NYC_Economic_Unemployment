@@ -1,4 +1,5 @@
 library(reshape2)
+library(XML)
 # set working directory. Folders are named as current_year
 setwd("C:/Users/bynbutterfly/Dropbox/pdf/Finance")
 
