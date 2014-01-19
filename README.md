@@ -9,6 +9,8 @@ Recommendation IDE: R Studio (free), http://www.rstudio.com/
 
 Advangtage: produce unemployment data in specific year automatically
 
+unemployment2012 and unemployment2013 in Github are example csv outputs.
+
 
 Before running the programs, you need to 
 
